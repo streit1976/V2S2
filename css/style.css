@@ -238,7 +238,7 @@ align-items: center;
   cursor: pointer;
   font-style: normal;
 }
-.header__contacts-title{
+.header__contacts-title {
   display: flex;
   font-family: 'Roboto';
   font-size: 16px;
