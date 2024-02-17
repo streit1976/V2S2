@@ -911,6 +911,7 @@ label {
   border: none;
   border-radius: 6px;
   color: #fff;
+  cursor: pointer;
 }
 .descriptio__inner-star {
   margin-left: 15px;
@@ -974,7 +975,7 @@ label {
 }
 .characteristics__item {
   display: grid;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 300px auto;
   margin-left: 15px;
   margin-top: 20px;
   border: 1px solid #3f93ff;
