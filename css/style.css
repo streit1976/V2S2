@@ -1009,3 +1009,38 @@ label {
   margin: 0;
   padding: 10px 0 10px 10px;
 }
+
+table {
+  width: calc(100% - 49px);
+  border: 1px solid #3f93ff;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border-collapse: separate;
+  border-spacing: 0px;
+  margin-left: 15px;
+}
+
+tr td {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  border-right: 1px solid #3f93ff;
+  border-bottom: 1px solid #3f93ff;
+  margin: 0;
+  padding: 10px 0 10px 10px;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+tr td:first-child {
+  width: 300px;
+}
+
+tr td:last-child {
+  width: calc(100% - 300px);
+  border-right: none;
+}
